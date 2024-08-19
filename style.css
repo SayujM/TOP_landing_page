@@ -1,0 +1,17 @@
+/* style sheet for the index webpage */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    width: 200px;
+}
