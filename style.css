@@ -193,3 +193,15 @@ a{
     cursor: pointer;
     width: 12vb;
 }
+
+.footer_container{
+    background-color: #1f2937;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_container .footer p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
