@@ -54,7 +54,6 @@ a{
     margin-top: 10px;
     padding: 10px;
     width: 150vb;
-   
     gap: 100px;
 }
 
@@ -148,4 +147,49 @@ a{
     font-size: 18px;
     text-align: end;
     margin: 25px 80px;
+}
+
+.action_container{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.action_container .action_items{
+    width: 100vb;
+    background-color: #3882f6;
+    display: flex;
+    padding: 25px;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+.action_container .action_items .action_items_wrapper{
+    width: 80vb;
+    display: flex;
+}
+
+
+.action_container .action_items .action_items_wrapper .action_text  h3{
+    font-size: 18px;
+    color: white;
+}
+
+.action_container .action_items .action_items_wrapper .action_text  p{
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.action_container .action_items .action_items_wrapper .action_signupbtn{
+    margin-left: auto;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+    width: 12vb;
 }
